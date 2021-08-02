@@ -4,20 +4,20 @@
 
     <item
         android:id="@+id/backup"
-        android:icon="@mipmap/ic_backup"
+        android:icon="@drawable/ic_backup"
         android:title="上传"
         app:showAsAction="always"/><!--showAsAction用来指定按钮的位置
                                         always表示永远显示在Toolbar中，如果屏幕空间不够则不显示-->
 
     <item
         android:id="@+id/delete"
-        android:icon="@mipmap/ic_delete"
+        android:icon="@drawable/ic_delete"
         android:title="删除"
         app:showAsAction="ifRoom"/><!--ifRoom表示屏幕空间足够的情况下显示在Toolbar中，否则显示在菜单中-->
 
     <item
         android:id="@+id/settings"
-        android:icon="@mipmap/ic_settings"
+        android:icon="@drawable/ic_settings"
         android:title="设置"
         app:showAsAction="never"/><!--never表示永远显示在菜单中-->
 

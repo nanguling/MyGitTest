@@ -25,7 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:layout_collapseMode="parallax"/>
+                app:layout_collapseMode="parallax"/>
             <!--android:layout_collapseMode属性用于指定当前控件在CollapsingToolbarLayout折叠过程中的
                     折叠模式
                 parallax表示会在折叠中产生一定的错位偏移，视觉效果好-->
@@ -34,7 +34,7 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:layout_collapseMode="pin"/>
+                app:layout_collapseMode="pin"/>
             <!--pin表示折叠过程中位置始终保持不变-->
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>

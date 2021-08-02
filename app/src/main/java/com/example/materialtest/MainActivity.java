@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             //让导航按钮显示出来
             actionBar.setDisplayHomeAsUpEnabled(true);
             //设置导航按钮的图标
-            actionBar.setHomeAsUpIndicator(R.mipmap.ic_menu);
+            actionBar.setHomeAsUpIndicator(R.drawable.ic_menu);
         }
 
         //获取NavigationView实例

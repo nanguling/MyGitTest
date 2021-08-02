@@ -10,7 +10,7 @@
         android:id="@+id/iconImage"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:src="@mipmap/nav_icon"
+        android:src="@drawable/nav_icon"
         android:layout_centerInParent="true"/>
 
     <TextView
