@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp"><!--app:cardCornerRadius该属性指定卡片圆角的弧度，数值越大，弧度越大-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fruitImage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"/><!--android:scaleType用于指定图片缩放模式
+                                                canterCrop可以让图片保持原有比例充满ImageView，裁剪超出的部分-->
+
+        <TextView
+            android:id="@+id/fruitName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
