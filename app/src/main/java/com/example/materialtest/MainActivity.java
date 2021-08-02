@@ -43,9 +43,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-        Log.d("MainActivity","代码被修改");
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toobler = (Toolbar) findViewById(R.id.toolbar);
